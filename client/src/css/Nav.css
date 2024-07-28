@@ -1,0 +1,58 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #22262d;
+  color: white;
+  padding-inline: 5em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ff8000;
+}
+
+nav ul {
+  display: flex;
+  gap: 5rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.search {
+  display: flex;
+  padding: 5px;
+  width: 280px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 8px 10px;
+}
+
+.nav-side {
+  width: 300px;
+}
+
+.nav-side.right {
+  text-align: right;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.logo a span {
+  color: #ff8000;
+}
+
+.logo a:hover {
+  color: white;
+}

@@ -1,0 +1,165 @@
+.new-book-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 10px 70px 40px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  width: 60%;
+  margin: auto;
+  margin-top: 3em;
+  border: 5px solid #979a9d;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+select {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form-group textarea {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  height: 6em;
+  resize: none;
+}
+
+.select-authors {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+}
+
+.select-authors span {
+  font-size: 1.4rem;
+  color: rgb(41, 219, 0);
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.actions .btn {
+  padding: 10px 20px;
+  margin: 0;
+  width: 45%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.message {
+  font-size: 1.2rem;
+  color: rgb(31, 86, 158);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+
+.search-form input {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 400px;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 50px;
+  border: 1px solid #888;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+.modal-close-btn {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.authorsSelect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.authorsSelect .selectAuthor {
+  font-size: 1.2rem;
+  flex: 1;
+}
+
+.authorsSelect a {
+  font-size: 1.4rem;
+  color: #007bff;
+  cursor: pointer;
+}
